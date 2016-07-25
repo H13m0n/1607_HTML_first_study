@@ -1,0 +1,73 @@
+/* 링크 밑줄 없애기 */
+a { text-decoration:none }
+
+h1{
+    color:whitesmoke;
+    background: dodgerblue;
+}
+
+/*  표 전체 (부모)  */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+/* 테이블 */
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+/* a : 각 요소를 나타냄 */
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+/* hover : 커서가 올라가있는 경우 */
+li a:hover {
+    background-color: orangered;
+    color: whitesmoke;
+}
+
+/* span.{Class Name} */
+span.helloSpan:active{
+    color:blueviolet;
+}
+
+/* div.{Class Name} : 해당 클래스에만 적용 */
+div.boring {
+    background-color: deepskyblue;
+    color: white;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+}
+
+div.tooBoring {
+    background-color: whitesmoke;
+    color: gray;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+}
+
+div.damn {
+    background-color: lightsteelblue;
+    color: black;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+}
+
+div.card-margin{
+    margin:20px;
+    padding:20px;
+}
